@@ -1,0 +1,30 @@
+A. Como cliente quiero poder ver mis datos personales
+(GET) /api/cliente/:ID
+ApiClienteController.php
+getDatosPersonales();
+
+B.Como cliente quiero poder modificar mis datos personales
+(PUT) /api/cliente/:ID
+ApiClienteController.php
+updateDatosPersonales();
+
+C.Como cliente quiero poder ver un listado de mis tarjetas
+(GET) /api/tarjeta/cliente/:ID
+ApiClienteController.php
+getTarjetasCliente();
+
+D.Como cliente quiero poder ver el estado actual de mi cuenta
+(GET) /api/actividad/cliente/:ID
+ApiActividadController.php
+getEstadoCuenta();
+
+E.Como cliente quiero poder ver mi historial de actividades dado un 
+intervalo de dos fechas
+(GET) /api/actividad?fecha1=fecha2/:ID
+ApiClienteController.php
+getHistorialEntreFechas();
+
+F.Como cliente quiero poder dar de baja una tarjeta
+(DELETE) /api/tarjeta/:ID
+ApiClienteController.php
+eliminarTarjeta();

@@ -1,0 +1,26 @@
+A)API REST
+i.¿Qué es, cómo funciona y cuáles son sus ventajas en el desarrollo de proyectos?
+Arquitectura de desarrollo web que se apoya totalmente en el protocolo HTTP. Proporciona una API que utiliza cada uno de los métodos del protocolo.
+Es el tipo de arquitectura más natural y estándar para crear APIs para servicios orientados a Internet.
+
+ii.Proponga nuevas funcionalidades al sistema anterior en donde puedan aprovecharse estás ventajas. Justifique.
+
+
+B) Describa y de algunos ejemplos de cómo se utilizan siguientes conceptos:
+
+i.Server Side Rendering
+Todos los recursos del sitio o app están alojados o son creados dentro del servidor. 
+Cuando un usuario realiza una solicitud, el servidor envía el documento HTML final completo para que el browser lo muestre.
+
+ii.HTTP Status codes
+Una URI representa un recurso al que se puede acceder o modificar mediante los métodos del protocolo HTTP (POST, GET, PUT, DELETE).
+Cada solicitud a una API REST debe responder con un código de respuesta.
+Indican el resultado de una solicitud:
+1xx: Informational
+2xx: Success
+3xx: Redirection
+4xx: Client Error
+5xx: Server Error
+
+
+iii.Sesiones de usuarios
